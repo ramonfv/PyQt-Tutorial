@@ -63,10 +63,10 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
         self.actionNew.triggered.connect(lambda: self.clicked("New"))
-        self.actionSave.triggered.connect(lambda: self.clicked("Save"))
+        # self.actionSave.triggered.connect(lambda: self.clicked("Save"))
         self.actionCopy.triggered.connect(lambda: self.clicked("Copy"))
         self.actionPaste.triggered.connect(lambda: self.clicked("Paste"))
-        self.actionImport.triggered.connect(self.import_image)
+        # self.actionImport.triggered.connect(self.import_image)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -93,12 +93,12 @@ class Ui_MainWindow(object):
         self.label.setText(text)
         self.label.adjustSize()
 
-    def import_image(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.ReadOnly
-        fileName, _ = QFileDialog.getOpenFileName(None, "QFileDialog.getOpenFileName()", "", "All Files (*);;Image Files (*.jpg *.png)", options=options)
-        if fileName:
-            self.label.setPixmap(QtGui.QPixmap(fileName))
+    # def import_image(self):
+    #     options = QFileDialog.Options()
+    #     options |= QFileDialog.ReadOnly
+    #     fileName, _ = QFileDialog.getOpenFileName(None, "QFileDialog.getOpenFileName()", "", "All Files (*);;Image Files (*.jpg *.png)", options=options)
+    #     if fileName:
+    #         self.label.setPixmap(QtGui.QPixmap(fileName))
 
 
 
