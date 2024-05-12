@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/electrodes2.ico</file>
+    <file>icons/electrodes2.ico</file>
+    <file>icons/134216_menu_lines_hamburger_icon.ico</file>
+    <file>icons/arget_icon.ico</file>
+    <file>icons/bain.ico</file>
+    <file>icons/dark_icon.ico</file>
+    <file>icons/electrodes.ico</file>
+    <file>icons/light mode_icon.ico</file>
+    <file>icons/repeat_icon.ico</file>
+    <file>icons/settings_icon.ico</file>
+    <file>icons/user-48.ico</file>
+  </qresource>
+</RCC>

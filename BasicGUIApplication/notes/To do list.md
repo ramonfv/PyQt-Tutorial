@@ -1,0 +1,11 @@
+
+- [x] Finalizar tutorial PyQt (apenas o que for relevante)
+- [ ] Fazer levantamento de funcionalidades para a tela de sinais de EEG
+	- [ ] Menu central ?
+		- [ ] 
+	- [ ] Menu lateral para escolher uma ou mais opções, inclusive todas:
+		- [ ] Indivíduos
+		- [ ] Seção
+		- [ ] Eletrodo
+		- [ ] Label
+	- [ ] Area central de plot

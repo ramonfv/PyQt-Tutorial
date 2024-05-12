@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>303</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>All</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>250</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>256</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Subject01</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject02</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject03</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject04</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject05</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject06</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject07</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject08</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject09</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Subject15</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
